@@ -1,9 +1,10 @@
-function sum(arr){
-    sum = 0;
+function add(arr){
+    res = 0;
     arr.forEach(element => {
-        sum = sum + element
+        res = res + element
     });
-    return sum
+
+    return res
 }
 
 function run(){
@@ -23,6 +24,7 @@ function run(){
     console.log(we*4);
     let arr = [(ios*3),(toc*3),(oslab*1.5),(dbmslab*1.5),(aiml*4),(dbms*3),(ess*2),(we*4),(nmlab*2)]
     console.log(arr);
-    let gpa = sum(arr) / 24
+    let gpa = add(arr) / 24
+
     const output = document.getElementById('output').textContent = `GPA : ${gpa.toFixed(2)}`
 }
