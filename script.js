@@ -3,7 +3,6 @@ function sum(arr){
     arr.forEach(element => {
         sum = sum + element
     });
-
     return sum
 }
 
