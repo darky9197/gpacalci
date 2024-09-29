@@ -25,5 +25,5 @@ function run(){
     let arr = [(ios*3),(toc*3),(oslab*1.5),(dbmslab*1.5),(aiml*4),(dbms*3),(ess*2),(we*4),(nmlab*2)]
     console.log(arr);
     let gpa = sum(arr) / 24
-    const output = document.getElementById('output').textContent = `GPA : gpa.toFixed(2)`
+    const output = document.getElementById('output').textContent = `GPA : ${gpa.toFixed(2)}`
 }
