@@ -27,16 +27,33 @@ body {
 .input_field {
     display: flex;
     justify-content: space-between;
-    gap: 6rem;
+    gap: 10rem;
     margin:10px 0px;
+    transition:gap 200ms ease ;
 }
 
 .btn {
-    background-color: rgb(0, 174, 255);
+    margin-top: 2.5rem;
+    cursor: pointer;
+    background: linear-gradient(270deg,#fa4420,#4109f8);
     color: #fff;
     border: 0px;
     font-size: 1.1rem;
     padding: .75rem;
     border-radius: 5px;
     width: 100%;
+
+    transition: background 100ms ease,
+                outline 100ms ease-in-out ;
+}
+
+.btn:hover {
+    background: linear-gradient(270deg,#ff2a00,#3c00ff);
+    outline:2px solid #ff004c;
+}
+
+@media(max-width : 374px){
+    .input_field {
+        gap: 6rem;
+    }
 }
