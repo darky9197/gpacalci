@@ -15,5 +15,5 @@ function run(){
 
     console.log(gpa.toFixed(2));
     console.log(typeof(Number(ios.value)));
-    const output = document.getElementById('output').textContent = gpa.toFixed(2)
+    const output = document.getElementById('output').textContent =`GPA : gpa.toFixed(2)` 
 }
