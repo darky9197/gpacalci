@@ -1,3 +1,12 @@
+function sum(arr){
+    sum = 0;
+    arr.forEach(element => {
+        sum = sum + element
+    });
+
+    return sum
+}
+
 function run(){
     const ios = document.getElementById('ios').value
     const toc = document.getElementById('toc').value
@@ -7,13 +16,14 @@ function run(){
     const dbms = document.getElementById('dbms').value
     const ess = document.getElementById('ess').value
     const we = document.getElementById('we').value
-    const nmlab = document.getElementById('ios').value
-
-    let gpa = ((Number(ios)*3)+(Number(toc)*3)+(Number(oslab)*1.5)+(Number(dbmslab)*1.5)+(Number(aiml)*4)+(Number(dbms)*3)+(Number(ess)*2)+(Number(we)*4)+(Number(nmlab)*2))
-    gpa = gpa / 24
+    const nmlab = document.getElementById('nmlab').value
 
 
-    console.log(gpa.toFixed(2));
-    console.log(typeof(Number(ios.value)));
-    const output = document.getElementById('output').textContent =`GPA : gpa.toFixed(2)` 
+
+    console.log(ios*3);
+    console.log(we*4);
+    let arr = [(ios*3),(toc*3),(oslab*1.5),(dbmslab*1.5),(aiml*4),(dbms*3),(ess*2),(we*4),(nmlab*2)]
+    console.log(arr);
+    let gpa = sum(arr) / 24
+    const output = document.getElementById('output').textContent = gpa.toFixed(2)
 }
