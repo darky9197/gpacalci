@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <title>Sem IV | GPA CALCULATOR</title>
+    </head>
+    <body>
+        <article class="main_container">
+            <h1>GPA Calculator<br/>(SEM IV)</h1>
+            <div class="input_field">
+                <div>
+                    <label for="ios">IOS</label>
+                    <p>(CS3451)</p>
+                </div>
+                <select name="ios" id="ios">
+                    <option value="">Select Grade</option>
+                    <option value="10">O</option>
+                    <option value="9">A+</option>
+                    <option value="8">A</option>
+                    <option value="7">B+</option>
+                    <option value="6">B</option>
+                    <option value="5">C</option>
+                    <option value="0">RA</option>
+                  </select>
+            </div>
+            <div class="input_field">
+                <div>
+                    <label for="toc">TOC</label>
+                    <p>(CS3452)</p>
+                </div>
+                <select name="toc" id="toc">
+                    <option value="">Select Grade</option>
+                    <option value="10">O</option>
+                    <option value="9">A+</option>
+                    <option value="8">A</option>
+                    <option value="7">B+</option>
+                    <option value="6">B</option>
+                    <option value="5">C</option>
+                    <option value="0">RA</option>
+                  </select>
+            </div>
+            <div class="input_field">
+                <div>
+                    <label for="oslab">OS LAB</label>
+                    <p>(CS3461)</p>
+                </div>
+                <select name="oslab" id="oslab">
+                    <option value="">Select Grade</option>
+                    <option value="10">O</option>
+                    <option value="9">A+</option>
+                    <option value="8">A</option>
+                    <option value="7">B+</option>
+                    <option value="6">B</option>
+                    <option value="5">C</option>
+                    <option value="0">RA</option>
+                  </select>
+            </div>
+            <div class="input_field">
+                <div>
+                    <label for="dbmslab">DBMS LAB</label>
+                    <p>(CS3481)</p>
+                </div>
+                <select name="dbmslab" id="dbmslab">
+                    <option value="">Select Grade</option>
+                    <option value="10">O</option>
+                    <option value="9">A+</option>
+                    <option value="8">A</option>
+                    <option value="7">B+</option>
+                    <option value="6">B</option>
+                    <option value="5">C</option>
+                    <option value="0">RA</option>
+                  </select>
+            </div>
+            <div class="input_field">
+                <div>
+                    <label for="aiml">AIML</label>
+                    <p>(CS3491)</p>
+                </div>
+                <select name="aiml" id="aiml">
+                    <option value="">Select Grade</option>
+                    <option value="10">O</option>
+                    <option value="9">A+</option>
+                    <option value="8">A</option>
+                    <option value="7">B+</option>
+                    <option value="6">B</option>
+                    <option value="5">C</option>
+                    <option value="0">RA</option>
+                  </select>
+            </div>
+            <div class="input_field">
+                <div>
+                    <label for="dbms">DBMS</label>
+                    <p>(CS3492)</p>
+                </div>
+                <select name="dbms" id="dbms">
+                    <option value="">Select Grade</option>
+                    <option value="10">O</option>
+                    <option value="9">A+</option>
+                    <option value="8">A</option>
+                    <option value="7">B+</option>
+                    <option value="6">B</option>
+                    <option value="5">C</option>
+                    <option value="0">RA</option>
+                  </select>
+            </div>
+            <div class="input_field">
+                <div>
+                    <label for="ess">ESS</label>
+                    <p>(GE3451)</p>
+                </div>
+                <select name="ess" id="ess">
+                    <option value="">Select Grade</option>
+                    <option value="10">O</option>
+                    <option value="9">A+</option>
+                    <option value="8">A</option>
+                    <option value="7">B+</option>
+                    <option value="6">B</option>
+                    <option value="5">C</option>
+                    <option value="0">RA</option>
+                  </select>
+            </div>
+            <div class="input_field">
+                <div>
+                    <label for="we">WE</label>
+                    <p>(IT3401)</p>
+                </div>
+                <select name="we" id="we">
+                    <option value="">Select Grade</option>
+                    <option value="10">O</option>
+                    <option value="9">A+</option>
+                    <option value="8">A</option>
+                    <option value="7">B+</option>
+                    <option value="6">B</option>
+                    <option value="5">C</option>
+                    <option value="0">RA</option>
+                  </select>
+            </div>
+            <div class="input_field">
+                <div>
+                    <label for="nmlab">NM LAB</label>
+                    <p>(NM1022)</p>
+                </div>
+                <select name="nmlab" id="nmlab">
+                    <option value="">Select Grade</option>
+                    <option value="10">O</option>
+                    <option value="9">A+</option>
+                    <option value="8">A</option>
+                    <option value="7">B+</option>
+                    <option value="6">B</option>
+                    <option value="5">C</option>
+                    <option value="0">RA</option>
+                  </select>
+            </div>
+            <button onclick="run()" class="btn">Calulate GPA</button>
+            <div style="display: flex;justify-content: center;padding: 1rem;">
+                <h1 id="output"></h1>
+            </div>
+        </article>
+
+        <script src="script.js"></script>
+    </body>
+</html>
