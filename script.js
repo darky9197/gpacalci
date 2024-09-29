@@ -9,7 +9,8 @@ function run(){
     const we = document.getElementById('we').value
     const nmlab = document.getElementById('ios').value
 
-    let gpa = ((Number(ios)*3)+(Number(toc)*3)+(Number(oslab)*1.5)+(Number(dbmslab)*1.5)+(Number(aiml)*4)+(Number(dbms)*3)+(Number(ess)*2)+(Number(we)*4)+(Number(nmlab)*2)) / (24)
+    let gpa = ((Number(ios)*3)+(Number(toc)*3)+(Number(oslab)*1.5)+(Number(dbmslab)*1.5)+(Number(aiml)*4)+(Number(dbms)*3)+(Number(ess)*2)+(Number(we)*4)+(Number(nmlab)*2))
+    gpa = gpa / 24
 
 
     console.log(gpa.toFixed(2));
