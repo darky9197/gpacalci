@@ -33,7 +33,6 @@ body {
 }
 
 .btn {
-    margin-top: 2.5rem;
     cursor: pointer;
     background: linear-gradient(270deg,#fa4420,#4109f8);
     color: #fff;
@@ -50,6 +49,23 @@ body {
 .btn:hover {
     background: linear-gradient(270deg,#ff2a00,#3c00ff);
     outline:2px solid #ff004c;
+}
+
+.grid_layout{
+    display: grid;
+    grid-template-columns: 1fr;
+    padding: 2rem 0rem;
+    grid-gap: 2rem;
+}
+
+
+
+.home_button {
+    cursor: pointer;
+    padding: 1rem;
+    font-weight: 600;
+    min-width: 100%;
+    border: 1px trans;
 }
 
 @media(max-width : 374px){
