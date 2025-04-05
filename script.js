@@ -1,4 +1,4 @@
-function sem4(arr){
+function sem4(){
     res = 0;
     arr.forEach(element => {
         res = res + element
@@ -30,7 +30,7 @@ function run(){
 }
 
 
-function sem5(arr){
+function sem5(){
     res = 0;
     arr.forEach(element => {
         res = res + element
