@@ -1,4 +1,4 @@
-function sem4(){
+function add(arr){
     res = 0;
     arr.forEach(element => {
         res = res + element
@@ -7,7 +7,7 @@ function sem4(){
     return res
 }
 
-function run(){
+function sem4(){
     const ios = document.getElementById('ios').value
     const toc = document.getElementById('toc').value
     const oslab = document.getElementById('oslab').value
@@ -29,17 +29,7 @@ function run(){
     const output = document.getElementById('output').textContent = `GPA : ${gpa.toFixed(2)}`
 }
 
-
 function sem5(){
-    res = 0;
-    arr.forEach(element => {
-        res = res + element
-    });
-
-    return res
-}
-
-function run(){
     const devops = document.getElementById('devops').value
     const ba = document.getElementById('ba').value
     const dc = document.getElementById('dc').value
